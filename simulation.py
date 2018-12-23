@@ -14,12 +14,14 @@ Flowers
 """
 from Environment import Environment
 
-env = Environment(800, 800)
-env.add_beehives(1, 1, 1)
-env.add_flowers(1, 2, 1, 1)
+env = Environment(100, 100)
+env.add_flowers(10, 70, 1, 2, 'i')
+env.add_flowers(10, 20, 2, 2, 'r')
+env.add_flowers(30, 60, 3, 2, 'o')
+env.update_plot()
 
-print(env.beehives[0].tag, env.flowers[0].tag)
-print(env.cells[1, 1])
+
+
 
 
 
