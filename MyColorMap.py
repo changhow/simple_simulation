@@ -6,7 +6,8 @@ myColorMap = {'violet': '#8A2BE2',
               'yellow': '#FFFF00',
               'orange': '#FFA500',
               'red': '#FF0000',
-              'black': '#FFFFFF'
+              'black': '#000000',
+              'white': '#FFFFFF'
               }
 
 

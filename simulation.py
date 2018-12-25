@@ -15,10 +15,14 @@ Flowers
 from Environment import Environment
 
 env = Environment(100, 100)
-env.add_flowers(10, 70, 1, 2, 'i')
-env.add_flowers(10, 20, 2, 2, 'r')
-env.add_flowers(30, 60, 3, 2, 'o')
-env.update_plot()
+env.add_flowers(80, 80, 2, 'i')
+env.add_flowers(0, 0, 2, 'r')
+env.add_flowers(0, 80, 2, 'o')
+env.add_beehives(50, 50, 10)
+env.bees_on_the_move()
+# env.update_plot()
+
+print(env.cells)
 
 
 
