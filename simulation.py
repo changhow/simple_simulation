@@ -13,3 +13,4 @@ Flowers
     X, Y Plane
 """
 import numpy as np
+a = np.array([])
